@@ -33,33 +33,25 @@ This repository contains the complete data audit, exploratory data analysis, and
 
 ## Setup Instructions
 
-### 1. Clone the repository
+### Clone the repository
 ```bash
 git clone <repo-url>
 cd part1-eda
 ```
 
-### 2. Create a virtual environment 
+### Create a virtual environment 
 ```bash
 python -m venv venv
 source venv/bin/activate        # Mac/Linux
-venv\Scripts\activate           # Windows
+./venv/Scripts/activate           # Windows
 ```
 
-### 3. Install dependencies
+### Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Add the data files
-Download the dataset from the provided Google Drive link and place all CSV files in the `data/` folder.
-
-### 5. Create the charts output folder
-```bash
-mkdir charts
-```
-
-### 6. Run the notebook
+### Run the notebook
 ```bash
 jupyter notebook eda_audit.ipynb
 ```
